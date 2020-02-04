@@ -1,0 +1,8 @@
+{
+ "xyz":        "g1_001.xyz",
+ "functional": "M06-L",
+ "runtype":    "optim",
+ "spacing":     0.20,
+ "idiv":        12,
+ "cell":       { "x": 4.2, "y": 7.9, "z": 8 }
+}

@@ -1,0 +1,12 @@
+{
+ "xyz":        "c2n4.xyz",
+ "functional": "M06-L",
+ "runtype":    "optim",
+ "mixer":      "broyden",
+ "optimizer":  "fire",
+ "nbands":     25,
+ "spacing":     0.20,
+ "idiv":        8,
+ "cell":       { "x": 6, "y": 5.5, "z": 3 },
+ "custom_id":  "01pbefire"
+}

@@ -1,0 +1,7 @@
+{
+ "xyz":        "g1_001.xyz",
+ "functional": "M06-L",
+ "spacing":     0.20,
+ "idiv":        8,
+ "cell":       { "x": 8.167, "y": 8.167, "z": 2.6 }
+}

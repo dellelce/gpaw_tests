@@ -1,0 +1,8 @@
+{
+ "xyz":        "c2b4n8_0.xyz",
+ "functional": "PBE",
+ "spacing":     0.15,
+ "idiv":        8,
+ "cell":       { "x": 8.567, "y": 7.967, "z": 2.6 },
+ "custom_id":  "o0"
+}

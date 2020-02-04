@@ -1,0 +1,8 @@
+{
+ "xyz":        "g1_001.xyz",
+ "functional": "M06-L",
+ "spacing":     0.15,
+ "idiv":        8,
+ "cell":       { "x": 8.367, "y": 7.967, "z": 2.6 },
+ "custom_id":  "a3_4_x8367_y7967_nob"
+}

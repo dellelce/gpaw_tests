@@ -1,0 +1,7 @@
+{
+ "xyz":        "geo.xyz",
+ "spacing":     0.10,
+ "runtype":     "optim",
+ "idiv":        8,
+ "cell":       { "x": 6, "y": 3, "z": 3 }
+}

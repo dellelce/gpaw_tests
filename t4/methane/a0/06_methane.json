@@ -1,0 +1,7 @@
+{
+ "xyz":        "methane_0.xyz",
+ "functional": "B3LYP",
+ "spacing":     0.20,
+ "idiv":        16,
+ "cell":       { "x": 4, "y": 3.85, "z": 4 }
+}

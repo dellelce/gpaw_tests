@@ -1,0 +1,8 @@
+{
+ "xyz":               "seq.xyz",
+ "functional":        "PBE",
+ "spacing":            0.15,
+ "idiv":               8,
+ "maxiter":            500,
+ "cell":              { "x": 8, "y": 3, "z": 3 }
+}

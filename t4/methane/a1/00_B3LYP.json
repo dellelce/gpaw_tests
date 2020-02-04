@@ -1,0 +1,7 @@
+{
+ "xyz":        "octo_0.xyz",
+ "functional": "B3LYP",
+ "spacing":     0.10,
+ "idiv":        8,
+ "cell":       { "x": 3.75, "y": 3.85, "z": 3.75 }
+}

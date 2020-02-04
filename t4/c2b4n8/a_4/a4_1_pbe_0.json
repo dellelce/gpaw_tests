@@ -1,0 +1,9 @@
+{
+ "xyz":        "g1_001.xyz",
+ "functional": "PBE",
+ "runtype":    "optim",
+ "spacing":     0.15,
+ "idiv":        8,
+ "cell":       { "x": 8.267, "y": 8.167, "z": 3 },
+ "custom_id":  "a4_pbe_0"
+}

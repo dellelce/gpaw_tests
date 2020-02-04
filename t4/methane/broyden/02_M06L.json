@@ -1,0 +1,8 @@
+{
+ "xyz":        "octo_0.xyz",
+ "functional": "M06-L",
+ "spacing":     0.10,
+ "idiv":        8,
+ "nbands":      9,
+ "cell":       { "x": 4, "y": 4, "z": 4 }
+}

@@ -1,0 +1,7 @@
+{
+ "xyz":        "seq.xyz",
+ "functional": "M06-L",
+ "spacing":     0.15,
+ "idiv":        8,
+ "cell":       { "x": 6, "y": 3, "z": 3 }
+}

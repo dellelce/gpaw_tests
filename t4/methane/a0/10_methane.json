@@ -1,0 +1,7 @@
+{
+ "xyz":        "methane_0.xyz",
+ "functional": "PBE",
+ "spacing":     0.10,
+ "idiv":        16,
+ "cell":       { "x": 3.75, "y": 3.75, "z": 3.75 }
+}

@@ -1,0 +1,6 @@
+{
+ "xyz":        "seq.xyz",
+ "spacing":     0.15,
+ "idiv":        8,
+ "cell":       { "x": 9, "y": 3, "z": 3 }
+}

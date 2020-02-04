@@ -1,0 +1,10 @@
+{
+ "xyz":        "c2b2n4.xyz",
+ "functional": "PBE",
+ "runtype":    "optim",
+ "mixer":      "broyden",
+ "spacing":     0.20,
+ "idiv":        8,
+ "cell":       { "x": 7.5, "y": 7.5, "z": 3 },
+ "custom_id":  "00pbe"
+}
