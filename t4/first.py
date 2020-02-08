@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 '''
  File:         first.py
  Created:      220517
@@ -10,8 +9,7 @@ from ase import Atoms
 from ase.calculators.emt import EMT
 from ase.optimize import QuasiNewton
 
-system = Atoms('H2', positions=[[0.0, 0.0, 0.0],
-                                [0.0, 0.0, 1.0]])
+system = Atoms('H2', positions=[[0.0, 0.0, 0.0], [0.0, 0.0, 1.0]])
 calc = EMT()
 
 system.set_calculator(calc)

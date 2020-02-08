@@ -1,4 +1,3 @@
-
 '''
   from:
   https://wiki.fysik.dtu.dk/gpaw/tutorials/gw_tutorial/gw_tutorial.html
@@ -11,26 +10,24 @@ from gpaw.utilities import h2gpts
 
 
 def main():
- a = 8.467
- atoms = read('g1_001.xyz')
- atoms.cell=(a, a, a)
- atoms.pbc=False
- atoms.center()
- 
- print(atoms.get_cell())
- 
- calc = GPAW(
-            xc='M06-L',
-            txt='C_groundstate_M06L_5.txt',
-            nbands=60,
-            gpts=h2gpts(0.20,atoms.get_cell(),idiv=8)
-           )
+    a = 8.467
+    atoms = read('g1_001.xyz')
+    atoms.cell = (a, a, a)
+    atoms.pbc = False
+    atoms.center()
 
- atoms.set_calculator(calc)
- atoms.get_potential_energy()
+    print(atoms.get_cell())
 
- #calc.diagonalize_full_hamiltonian()       # determine all bands
- calc.write('C_groundstate.gpw','all')    # write out wavefunctions
+    calc = GPAW(xc='M06-L',
+                txt='C_groundstate_M06L_5.txt',
+                nbands=60,
+                gpts=h2gpts(0.20, atoms.get_cell(), idiv=8))
+
+    atoms.set_calculator(calc)
+    atoms.get_potential_energy()
+
+    #calc.diagonalize_full_hamiltonian()       # determine all bands
+    calc.write('C_groundstate.gpw', 'all')  # write out wavefunctions
 
 
 ## call main
